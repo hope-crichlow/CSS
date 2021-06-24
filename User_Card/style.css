@@ -1,6 +1,7 @@
 * { 
     padding: 0px;
     margin: 0px;
+    border: 2px solid rgb(138, 87, 125);
 }
 
 .flexIt{
@@ -8,7 +9,7 @@
 }
 
 .card {
-    width: 750px;
+    /* width: 750px; */
     
 }
 
@@ -18,14 +19,20 @@
 }
 .bottomCard {
     height: 300px;
-    border: 5px solid gray;
+}
+
+.border {
+   border: 5px solid gray;
 }
 .info {
     flex-direction: column;
+    /* flex: 2; */
 }
 .avatar {
-    height: 50px;
+    height: 60px;
+    border-radius: 50%;
 }
+
 .details { 
     display: flex;
     align-content: flex-start;
