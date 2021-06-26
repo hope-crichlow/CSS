@@ -61,37 +61,40 @@ main {
 
 .card {
     display: flex;
-    border: .5px dashed darkblue;
     flex-direction: column;
 }
 
-.titleRow {
+.connections, .titleRow {
     display: flex;
     gap: 5%;
     padding: 5%;
+    
+}
 
-
+.connections  {
+    border-right: 3px solid lightgray;;
+    border-bottom: 3px solid lightgray;
+    border-left: 3px solid lightgray;;
+    
+}
+.titleRow {
     background-color: slategray;
     color: snow;
     text-align: center;
     
 }
 
-.titleRow li {
-    flex-direction: row;
-    flex-flow: row wrap;
-    
-}
 
+.bigIcon {
+    width: 30px;
+}
 .count{
-    /* display: flex; */
-    
+
     padding: 10px 5px 5px 5px;
     flex: 1;
 
     color: darkslategray;
-    background-color: seashell;
-    /* border: .5px dashed darkblue; */
+    background-color: lightgray;
     border-radius: 100%;
 }
 
@@ -99,6 +102,21 @@ main {
     display: flex;
     flex: 2;
 }
+
+.connections {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.smallIcon {
+    width: 20px;
+}
+
+.tinyIcon {
+    width: 10px;
+}
+
 /* 
 .row {
     display: flex;
