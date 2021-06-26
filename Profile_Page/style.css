@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: black;
+    color: white;
+
+    display: flex;
+    padding: 1% 10%;
+}
+
+.leftNav {
+    display: flex;
+    /* flex: 2;
+    flex-direction: row;
+    border: 5px dashed darkblue;
+    gap: 15px; */
+}
+
+.leftNav li {
+    list-style: none;
+    /* text-decoration: none; */
+}
+/* 
+
+
+.row {
+    display: flex;
+    border: 5px dashed darkblue;
+}
+.col {
+    flex: 2;
+    background-color: lightcyan;
+}
+
+
+.profile {
+    flex: 1;
+     border: 5px dashed rgb(0, 100, 139);
+}
+.page  {
+    border: 5px dashed darkblue;
+}
+
+.rightNav {
+    flex: 3;
+} */
