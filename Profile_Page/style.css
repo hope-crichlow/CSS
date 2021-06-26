@@ -1,34 +1,108 @@
 * {
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 
 nav {
+    display: flex;
+    padding: 2% 13%;
+    justify-content: space-between;
+
     background-color: black;
     color: white;
-
-    display: flex;
-    padding: 1% 10%;
 }
 
 .leftNav {
     display: flex;
-    /* flex: 2;
+    flex: 2;
+    gap: 15px; 
+
+    border: .5px dashed darkblue;
+   
+    /* 
     flex-direction: row;
     border: 5px dashed darkblue;
-    gap: 15px; */
+   */
 }
 
-.leftNav li {
-    list-style: none;
-    /* text-decoration: none; */
+.leftNav {
+    flex: 2;
+}
+
+.navLink {
+    color: white;
+    text-decoration: none;  
+}
+
+.rightNav {
+    justify-content: space-around;
+}
+
+main {
+    display: flex;
+    padding: 5% 15%;
+    gap: 20px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.wide {
+    flex: 3;
+}
+
+.narrow {
+    flex: 2;
+}
+
+.card {
+    display: flex;
+    border: .5px dashed darkblue;
+    flex-direction: column;
+}
+
+.titleRow {
+    display: flex;
+    gap: 5%;
+    padding: 5%;
+
+
+    background-color: slategray;
+    color: snow;
+    text-align: center;
+    
+}
+
+.titleRow li {
+    flex-direction: row;
+    flex-flow: row wrap;
+    
+}
+
+.count{
+    /* display: flex; */
+    
+    padding: 10px 5px 5px 5px;
+    flex: 1;
+
+    color: darkslategray;
+    background-color: seashell;
+    /* border: .5px dashed darkblue; */
+    border-radius: 100%;
+}
+
+.title {
+    display: flex;
+    flex: 2;
 }
 /* 
-
-
 .row {
     display: flex;
-    border: 5px dashed darkblue;
+   
 }
 .col {
     flex: 2;
@@ -44,6 +118,4 @@ nav {
     border: 5px dashed darkblue;
 }
 
-.rightNav {
-    flex: 3;
-} */
+ */
