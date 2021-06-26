@@ -7,12 +7,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,900;1,100&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"rel="stylesheet">
+
     <title>Profile Page</title>
 </head>
 <body>
@@ -26,7 +22,7 @@
                 <a class="navLink" href="#">Home</a>
             </li>
             <li>
-                <a class="navLink" href="#" class="active">My Profile</a>
+                <a class="navLink" href="#" id="active">My Profile</a>
             </li>
             <li>
                 <a class="navLink" href="#">Find Connections</a>
@@ -48,31 +44,33 @@
                     <h1>Jane Doe</h1>
                 <!-- </div> -->
                 
-                <div class="city">
-                    <img class="tinyIcon" src="./Assets/icons/map-marker.png" alt="">
-                    <p>Seattle</p>
-                </div>
+                    <div class="city">
+                        <img class="tinyIcon" src="./Assets/icons/map-marker.png" alt="">
+                        <p>Seattle</p>
+                    </div>
 
-                <p>
-                    Developer | Engineer | Problem Solver
-                    <br>
-                    Master of shadows and the Internet!
-                </p>
+                    <p>
+                        Developer | Engineer | Problem Solver
+                        <br>
+                        Master of shadows and the Internet!
+                    </p>
 
-                <div>
-                    <img src="./Assets/icons/gear.png" alt="" class="tinyIcon">
-                    <a href="#">edit profile</a>
+                    <div>
+                        <img src="./Assets/icons/gear.png" alt="" class="tinyIcon">
+                        <a href="#">edit profile</a>
+                    </div>
                 </div>
             </div>
-        </div>
            
             <div class="card">
        
                 <h3 class="titleRow title">Education</h3>
                 
                 <p class="connections">
+                    
                     Coding Dojo - Full Stack Bootcamp
                     <em>Dec 2019 - March 2020</em>
+
                     Tripple black belt in Python, MERN, and C# 
                 </p>
             </div>
@@ -87,17 +85,26 @@
                     <li class= "title"><h3>Connection Requests</h3></li>
                 </ul>
                 <ul class="connections">
-                    <li>
-                        <img class="smallIcon" src="./Assets/icons/user-circle.png" alt="">
-                        Todd E
-                        <img class="smallIcon" src="./Assets/icons/accept-circle.png" alt="">
-                        <img class="smallIcon" src="./Assets/icons/close-circle.png" alt="">
+                    <li class="friend" >
+                        
+                        <p>
+                            <img class="smallIcon" src="./Assets/icons/user-circle.png" alt="">
+                            Todd E
+                        </p> 
+                        <p>
+                            <img class="smallIcon" src="./Assets/icons/accept-circle.png" alt="">
+                            <img class="smallIcon" src="./Assets/icons/close-circle.png" alt="">
+                        </p>
                     </li>
-                    <li>
-                        <img class="smallIcon" src="./Assets/icons/user-circle.png" alt="">
-                        Phil K 
-                        <img class="smallIcon" src="./Assets/icons/accept-circle.png" alt="">
-                        <img class="smallIcon" src="./Assets/icons/close-circle.png" alt="">
+                    <li class="friend">
+                        <p>
+                            <img class="smallIcon" src="./Assets/icons/user-circle.png" alt="">
+                            Phil K
+                        </p>
+                        <p>
+                            <img class="smallIcon" src="./Assets/icons/accept-circle.png" alt="">
+                            <img class="smallIcon" src="./Assets/icons/close-circle.png" alt="">
+                        </p>
                     </li>
                 </ul>
 
@@ -124,7 +131,8 @@
                     <li>
                         <img class="smallIcon" src="./Assets/icons/user-circle.png" alt="">
                         Aloyne T
-                    </li><li>
+                    </li>
+                    <li>
                         <img class="smallIcon" src="./Assets/icons/user-circle.png" alt="">
                         Arry Y
                     </li>
@@ -136,19 +144,6 @@
         </div>
     </main>
 
-
-    <!-- <div class="container">
-
-        <div class="row nav">
-               
-          
-            
-           
-            
-
-        </div>
-
-    </div> -->
     
 </body>
 </html>
